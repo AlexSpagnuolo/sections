@@ -4,6 +4,7 @@ html {
   line-height: 1.5;
   background-color: #f2f2f2;
   max-width: 25em;
+  vertical-align: middle;
 }
 
 *, *::before, *::after {
@@ -18,9 +19,10 @@ img {
 
 p {
   text-align: left;
+  display: inline-block;
 }
 
-a {
+.btn {
   display: inline-block;
   background-color: #f2f2f2;
   border: 3px solid #333;
