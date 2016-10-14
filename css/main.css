@@ -50,7 +50,7 @@ p {
   color: black;
   border-radius: 4px;
   text-decoration: none;
-  padding: 1em;
+  padding: .5em;
 }
 
 .btn:hover {
