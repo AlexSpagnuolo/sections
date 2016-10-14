@@ -12,13 +12,6 @@ html {
 body {
   margin: 0;
   vertical-align: middle;
-}
-
-section {
-vertical-align: top;
-}
-
-#content {
   text-align: center;
 }
 
