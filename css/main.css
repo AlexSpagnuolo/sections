@@ -11,45 +11,48 @@ html {
 
 body {
   margin: 0;
+  vertical-align: middle;
 }
 
 section {
-  vertical-align: middle;
+  text-align: center;
+}
+
+div {
+  display: inline-block;
 }
 
 img {
   width: 100%;
   max-width: 25em;
-  margin: 1.5rem 0 0 1.5rem;
+  margin: 1.5rem;
   display: block;
+  float: left;
 }
 
 h2 {
-  display: inline-block;
-  margin: 1.5rem;
+  margin: 1rem 1rem 1rem 1.5rem;
   text-align: left;
 }
 
 p {
-  display: inline-block;
-  margin: auto 1.5rem auto 1.5rem;
+  margin: 1.5rem;
   max-width: 25em;
   text-align: left;
 }
 
 .btn {
-  margin: 1.5rem;
-  display: inline-block;
+  margin: 1.5rem 1.5rem 2rem, 1.5rem;
   background-color: #f2f2f2;
   border: 3px solid #333;
   color: black;
   border-radius: 4px;
   text-decoration: none;
   text-align: center;
-  padding: .5em;
+  padding: 1em;
 }
 
-a:hover {
+.btn:hover {
   background-color: #666;
   border: 3px solid #666;
   color: #f2f2f2;
